@@ -19,7 +19,7 @@ set line=0
 for /f "delims=" %%l in (%inputfile%) do (
     set /a line+=1
     if !line!==11 (
-        echo https://p-def4.pcloud.com/%inputname%/video.mp4'>>%tempfile%
+        echo https://archive.org/download/%inputname%/video.mp4'>>%tempfile%
     ) else (
         echo %%l>>%tempfile%
     )
