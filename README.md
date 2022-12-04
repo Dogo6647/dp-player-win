@@ -1,5 +1,8 @@
 # dp-player-win
 Dogo+ Player source code for Windows.
+This was supposed to be used with the dogoplus.ml website to play
+its content, but was later scrapped and replaced with an HTML5 web player.
+This does not work with the new Dogo+ protocol for video storage.
 
 How to install:
 1. Download a release from the releases tab.
